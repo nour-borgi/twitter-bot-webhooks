@@ -51,7 +51,7 @@ TWITTER_WEBHOOK_ENV=dev
 
 Check the terminal where you execute npm start, and you will start getting the events.
 
-### 6. Results
+### Results
 
 Now, if anyone follows you, the app will follows back and send a welcome message. 
 If anyone send hello or hi it will respond, if anyone send "about" it will respond with buttons, ...
