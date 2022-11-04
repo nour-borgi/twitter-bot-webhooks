@@ -8,7 +8,7 @@ What we are going to build, is a chatbot (using only direct messages and followi
 it has to follow back when someone follows the app and to respond when the app receives any message.
 To build this chatbot, we are going to use the twitter API and node.js with an express server, and ngrok.
  
-### 1. Set up our environment 
+1. Set up our environment 
  
 First step is to set up our environment on Twitter (having an account is an obligation).
 
@@ -22,11 +22,11 @@ you need to set up a dev environment — call it dev (dev environment label) for
 * A Twitter app with generated consumer keys and access tokens (Read,write and direct messages access): 
 hover in your name right above and click on Apps, choose your app then click on details then you will find this on clicking on Permissions 
 
-### 2. Clone this project on your computer
+2. Clone this project on your computer
 
-### 3. Run: `npm install`
+3. Run: `npm install`
 
-### 4. Create a file ".env" in the main root and copy your consumer API keys, API secret key, access token & access token secret in the right place. 
+4. Create a file ".env" in the main root and copy your consumer API keys, API secret key, access token & access token secret in the right place. 
 
 here you can make a copy: 
 
@@ -40,7 +40,7 @@ TWITTER_WEBHOOK_ENV=dev
 
 //in the code we choose the development label as "dev"
 
-### 5. Now, you have to follow those steps : 
+5. Now, you have to follow those steps: 
  
 * Run the command: `ngrok http 3000`
 * Copy the https URL provided by ngrok 
